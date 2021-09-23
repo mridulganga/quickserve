@@ -14,5 +14,7 @@ Simple and fast static file server made in golang.
 - port is to set the port, default is `80`
 - cert and key is to config tls, by default its empty and secure
 
+NOTE: when giving value for `cert` and `key`, the port is always `443`.
+
 ### To build
 `make build`
