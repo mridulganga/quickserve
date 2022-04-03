@@ -18,3 +18,18 @@ NOTE: when giving value for `cert` and `key`, the port is always `443`.
 
 ### To build
 `make build`
+
+### Quick setup
+```
+# installation
+wget https://github.com/mridulganga/quickserve/releases/download/v0.0.1/quickserve
+chmod +x quickserve
+
+# configuration
+mkdir app
+# put files inside app
+sudo ./quickserve -port 80
+
+# check if it works (new window)
+curl http://localhost/status
+```
